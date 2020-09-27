@@ -1,11 +1,13 @@
 @import "src/theme.scss";
 
-$internal-spacing: 15px;
+$internal-spacing: 25px;
 
 .card-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  padding: 10px 0;
 
   background-color: #BED21F;
 

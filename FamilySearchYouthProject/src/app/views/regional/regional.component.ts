@@ -37,6 +37,46 @@ export class RegionalComponent implements OnInit {
   ];
 
   ngOnInit(): void {
+    this.cardsData = this.shuffleArray(this.cardsData);
+  }
+
+  private shuffleArray(array): any[] {
+    // tslint:disable-next-line:one-variable-per-declaration
+    let currentIndex = array.length, temporaryValue, randomIndex;
+
+    // Check if there are remaining elements to shuffle
+    while (0 !== currentIndex) {
+      // Pick a remaining element
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // Swap with current element
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  }
+
+
+  // Used to get category color
+  public getColor(category): string {
+    switch (category) {
+      case 'Culture':
+        return '#FFB81D';
+      case 'Physical':
+        return '#BED21F';
+      case 'Religion':
+        return '#FC4F6E';
+      case 'Technology':
+        return '#3cb2c3';
+      case 'Government':
+        return '#ba84cf';
+      default:
+        return '#BED21F';
+    }
+
   }
 
 }
