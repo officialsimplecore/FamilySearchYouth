@@ -1,0 +1,23 @@
+@import "src/theme.scss";
+
+// Fonts
+
+@font-face {
+  font-family: 'Museo';
+  src: url('src/assets/museo_slab_500-webfont-3ac51e6133a399c50742d86e7cd95ca2-webfont.woff2') format('woff2'),
+  url('src/assets/museo_slab_500-webfont-3ac51e6133a399c50742d86e7cd95ca2-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html body {
+  margin: 0;
+  font-family: $primary-font;
+}
+
+.body-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+}

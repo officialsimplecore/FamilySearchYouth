@@ -1,0 +1,43 @@
+@import "src/theme.scss";
+
+$internal-spacing: 15px;
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #BED21F;
+
+  & > * {
+    margin-top: $internal-spacing;
+  }
+
+  .category {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: $primary-font;
+    font-weight: 800;
+  }
+
+  .divider {
+    height: 1px;
+    width: calc(100% - 40px);
+    background-color: rgba(0,0,0,.16);
+  }
+
+  .title {
+    font-size: 30px;
+    font-family: $secondary-font;
+  }
+
+  .icon {
+    $icon-size: 70px;
+    width: $icon-size;
+    height: $icon-size;
+    margin-bottom: $internal-spacing;
+  }
+
+}

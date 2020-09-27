@@ -1,1 +1,17 @@
-<p>navigation works!</p>
+<div class="nav-container">
+  <div class="left">
+    <img src="https://edge.fscdn.org/assets/components/hf/assets/img/logos/tree-logotype-0x-5e2a1017e994b22c3c3c0b557a7e0304.png" alt="">
+    <div class="nav-item"
+         [routerLink]="navItem.link"
+      *ngFor="let navItem of navigationItems">
+      {{navItem.title}}
+    </div>
+  </div>
+  <div class="right">
+    <div class="nav-item-icon"><img src="https://edge.fscdn.org/assets/components/hf/assets/img/icons/notice-question-a480cf3471a01fd30b5ad1449530febc.svg"></div>
+    <div class="nav-item-icon"><img src="https://edge.fscdn.org/assets/components/hf/assets/img/icons/social-sms-6027cc0f4a1db158ea86876b15791da2.svg"></div>
+    <div class="nav-item-icon"><img src="https://edge.fscdn.org/assets/components/hf/assets/img/icons/notice-133d14592160121782eba1b2a8e89cb3.svg"></div>
+    <div class="nav-item-icon"><img src=""></div>
+    <div class="nav-item">Your name</div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<p>regional works!</p>
+<!--Title Layer-->
+<!--  Back-->
+<!--  Title-->
+<!--  Another button-->
+<!--Time/Data Layer-->
+<!--  Date-->
+<!--  Button-->
+
+
+<!--Card List Layer-->
+<!--  Cards-->
+<div class="cards-container">
+  <fsp-card *ngFor="let card of cardsData"
+            [category]="card.category"
+            [title]="card.title"
+            [iconUrl]="card.icon"
+  ></fsp-card>
+</div>
