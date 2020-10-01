@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EntranceMapComponent implements OnInit {
 
+  public googleMapsOptions = {
+    center: {lat: 0, lng: -0},
+    zoom: 2
+  };
+
   constructor() { }
 
   ngOnInit(): void {

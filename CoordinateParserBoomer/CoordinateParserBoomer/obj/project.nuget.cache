@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kTTwKt27O2OkxFhJpnZtTN3w65urB0pvN1HoXSZPmka5G1Zi18fNQlt4vp/O5TIjvW0bSyFTexSHrkVxye3csg==",
+  "success": true,
+  "projectFilePath": "E:\\Software Development Projects\\FamilySearchYouth\\CoordinateParserBoomer\\CoordinateParserBoomer\\CoordinateParserBoomer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SimpleCore\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

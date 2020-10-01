@@ -1,0 +1,15 @@
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\bin\Debug\netcoreapp3.1\CoordinateParserBoomer.exe
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\bin\Debug\netcoreapp3.1\CoordinateParserBoomer.deps.json
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\bin\Debug\netcoreapp3.1\CoordinateParserBoomer.runtimeconfig.json
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\bin\Debug\netcoreapp3.1\CoordinateParserBoomer.runtimeconfig.dev.json
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\bin\Debug\netcoreapp3.1\CoordinateParserBoomer.dll
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\bin\Debug\netcoreapp3.1\CoordinateParserBoomer.pdb
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\obj\Debug\netcoreapp3.1\CoordinateParserBoomer.csprojAssemblyReference.cache
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\obj\Debug\netcoreapp3.1\CoordinateParserBoomer.AssemblyInfoInputs.cache
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\obj\Debug\netcoreapp3.1\CoordinateParserBoomer.AssemblyInfo.cs
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\obj\Debug\netcoreapp3.1\CoordinateParserBoomer.dll
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\obj\Debug\netcoreapp3.1\CoordinateParserBoomer.pdb
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\obj\Debug\netcoreapp3.1\CoordinateParserBoomer.genruntimeconfig.cache
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\obj\Debug\netcoreapp3.1\CoordinateParserBoomer.csproj.CoreCompileInputs.cache
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Software Development Projects\FamilySearchYouth\CoordinateParserBoomer\CoordinateParserBoomer\obj\Debug\netcoreapp3.1\CoordinateParserBoomer.csproj.CopyComplete

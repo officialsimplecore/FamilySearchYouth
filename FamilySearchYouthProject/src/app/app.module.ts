@@ -12,6 +12,10 @@ import {AngularFireStorageModule} from '@angular/fire/storage';
 import {AngularFireModule} from '@angular/fire';
 import {environment} from '../environments/environment';
 
+// Components
+import {GoogleMapsModule} from '@angular/google-maps';
+import {HttpClientModule} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,10 +26,12 @@ import {environment} from '../environments/environment';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
-    AngularFireStorageModule
+    AngularFireStorageModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
