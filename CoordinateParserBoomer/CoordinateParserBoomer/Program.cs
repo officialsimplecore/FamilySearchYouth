@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using System;
 using System.Text.Json.Serialization;
 
@@ -30,8 +31,8 @@ namespace CoordinateParserBoomer
                 String[] tempCoordinate = coordinate.Split(",");
                 coordinates[position] = new Coordinate
                 {
-                    Lat = double.Parse(tempCoordinate[0]),
-                    Lng = double.Parse(tempCoordinate[1])
+                    Lat = double.Parse(tempCoordinate[1]),
+                    Lng = double.Parse(tempCoordinate[0])
                 };
 
                 Console.WriteLine($"{coordinates[position].Lat} {coordinates[position].Lng}");
@@ -39,7 +40,11 @@ namespace CoordinateParserBoomer
                 position++;
             }
 
-            string json = JsonConvert.SerializeObject(coordinates);
+            // JSON Serialize
+            var serializerSettings = new JsonSerializerSettings();
+            serializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
+            string json = JsonConvert.SerializeObject(coordinates, serializerSettings);
 
             System.IO.File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + @"\coordinates.json", json);
 

@@ -15,6 +15,7 @@ import {environment} from '../environments/environment';
 // Components
 import {GoogleMapsModule} from '@angular/google-maps';
 import {HttpClientModule} from '@angular/common/http';
+import { AdminComponent } from './views/admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {HttpClientModule} from '@angular/common/http';
     NavigationComponent,
     RegionalComponent,
     EntranceMapComponent,
-    CardComponent
+    CardComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

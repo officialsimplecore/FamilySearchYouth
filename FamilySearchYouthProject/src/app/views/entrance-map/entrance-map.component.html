@@ -2,4 +2,7 @@
 <google-map
   height="90vh"
   width="100%"
-  [options]="googleMapsOptions"></google-map>
+  [options]="googleMapsOptions">
+  <map-polygon [paths]="vertices" (polygonClick)="$event"></map-polygon>
+
+</google-map>

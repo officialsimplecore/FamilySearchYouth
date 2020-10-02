@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {RegionalComponent} from './views/regional/regional.component';
 import {EntranceMapComponent} from './views/entrance-map/entrance-map.component';
+import {AdminComponent} from './views/admin/admin.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'youth',
     component: RegionalComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   }
 ];
 
