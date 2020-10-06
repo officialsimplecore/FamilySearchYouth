@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/simplecore/Documents/Family History Youth/FamilySearchYouth/CoordinateParserBoomer/CoordinateParserBoomer/CoordinateParserBoomer.csproj": {}
+    "/Users/simplecore/Documents/Family History Youth/FamilySearchYouth/FamilySearchYouthAPI/FamilySearchYouthAPI.csproj": {}
   },
   "projects": {
-    "/Users/simplecore/Documents/Family History Youth/FamilySearchYouth/CoordinateParserBoomer/CoordinateParserBoomer/CoordinateParserBoomer.csproj": {
+    "/Users/simplecore/Documents/Family History Youth/FamilySearchYouth/FamilySearchYouthAPI/FamilySearchYouthAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/simplecore/Documents/Family History Youth/FamilySearchYouth/CoordinateParserBoomer/CoordinateParserBoomer/CoordinateParserBoomer.csproj",
-        "projectName": "CoordinateParserBoomer",
-        "projectPath": "/Users/simplecore/Documents/Family History Youth/FamilySearchYouth/CoordinateParserBoomer/CoordinateParserBoomer/CoordinateParserBoomer.csproj",
+        "projectUniqueName": "/Users/simplecore/Documents/Family History Youth/FamilySearchYouth/FamilySearchYouthAPI/FamilySearchYouthAPI.csproj",
+        "projectName": "FamilySearchYouthAPI",
+        "projectPath": "/Users/simplecore/Documents/Family History Youth/FamilySearchYouth/FamilySearchYouthAPI/FamilySearchYouthAPI.csproj",
         "packagesPath": "/Users/simplecore/.nuget/packages/",
-        "outputPath": "/Users/simplecore/Documents/Family History Youth/FamilySearchYouth/CoordinateParserBoomer/CoordinateParserBoomer/obj/",
+        "outputPath": "/Users/simplecore/Documents/Family History Youth/FamilySearchYouth/FamilySearchYouthAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/simplecore/.nuget/NuGet/NuGet.Config"
@@ -35,12 +35,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -52,6 +46,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -7,9 +7,6 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { RegionalComponent } from './views/regional/regional.component';
 import { EntranceMapComponent } from './views/entrance-map/entrance-map.component';
 import { CardComponent } from './components/card/card.component';
-import {AngularFireAuthModule} from '@angular/fire/auth';
-import {AngularFireStorageModule} from '@angular/fire/storage';
-import {AngularFireModule} from '@angular/fire';
 import {environment} from '../environments/environment';
 
 // Components
@@ -30,9 +27,6 @@ import { AdminComponent } from './views/admin/admin.component';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireAuthModule,
-    AngularFireStorageModule,
     GoogleMapsModule
   ],
   providers: [],
