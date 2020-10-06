@@ -19,9 +19,12 @@ namespace CoordinateParserBoomer
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Choose file name");
+            var fileName = Console.ReadLine();
+
             // Takes input from text file (because of length)
-            var input = System.IO.File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + @"\input.txt");
-            String[] fullstringCoordinates = input.Split("0.0 ");
+            var input = System.IO.File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + @"input.txt");
+            String[] fullstringCoordinates = input.Split(" ");
             int amountOfCoordinates = fullstringCoordinates.Length;
             
             // Initialize size of output
@@ -53,7 +56,7 @@ namespace CoordinateParserBoomer
             string json = JsonConvert.SerializeObject(coordinates, serializerSettings);
 
             // Output JSON object as a file
-            System.IO.File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + @"\coordinates.json", json);
+            System.IO.File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + $@"{fileName}.json", json);
 
             Console.ReadKey();
         }
