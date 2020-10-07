@@ -19,27 +19,71 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302c991f-cbdf-47cd-898f-3a0cea05ed86" name="Default Changelist" comment="Implement test polygon">
-      <change afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/services/data.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/services/data.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.ts" afterDir="false" />
+    <list default="true" id="302c991f-cbdf-47cd-898f-3a0cea05ed86" name="Default Changelist" comment="Style: Refactor variable names for clarity">
+      <change afterPath="$PROJECT_DIR$/CoordinateParserBoomer/.vs/CoordinateParserBoomer/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/.vs/FamilySearchYouthAPI/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/.vs/FamilySearchYouthAPI/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/Controllers/RegionsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/Data/DataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/FamilySearchYouthAPI.csproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/Models/Region.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/Models/RegionalInformation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/Services/CoordinateParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/FamilySearchYouthAPI.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/FamilySearchYouthAPI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/FamilySearchYouthAPI.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/FamilySearchYouthAPI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/FamilySearchYouthAPI.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/FamilySearchYouthAPI.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/staticwebassets/FamilySearchYouthAPI.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/Debug/netcoreapp3.1/staticwebassets/FamilySearchYouthAPI.StaticWebAssets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/services/regions-data.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/services/regions-data.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoordinateParserBoomer/.vs/CoordinateParserBoomer/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/CoordinateParserBoomer/.vs/CoordinateParserBoomer/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/bin/Debug/netcoreapp3.1/CoordinateParserBoomer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/bin/Debug/netcoreapp3.1/CoordinateParserBoomer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/bin/Debug/netcoreapp3.1/CoordinateParserBoomer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/bin/Debug/netcoreapp3.1/CoordinateParserBoomer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/bin/Debug/netcoreapp3.1/coordinates.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/bin/Debug/netcoreapp3.1/coordinates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/obj/Debug/netcoreapp3.1/CoordinateParserBoomer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/obj/Debug/netcoreapp3.1/CoordinateParserBoomer.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/obj/Debug/netcoreapp3.1/CoordinateParserBoomer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/obj/Debug/netcoreapp3.1/CoordinateParserBoomer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/obj/Debug/netcoreapp3.1/CoordinateParserBoomer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CoordinateParserBoomer/CoordinateParserBoomer/obj/Debug/netcoreapp3.1/CoordinateParserBoomer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthAPI/FamilySearchYouthAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/FamilySearchYouthAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/FamilySearchYouthAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/FamilySearchYouthAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/FamilySearchYouthAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/FamilySearchYouthAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +164,8 @@
       <workItem from="1601178110921" duration="9694000" />
       <workItem from="1601302750996" duration="325000" />
       <workItem from="1601436643980" duration="4135000" />
-      <workItem from="1601590195299" duration="5654000" />
+      <workItem from="1601590195299" duration="6902000" />
+      <workItem from="1602031175655" duration="4733000" />
     </task>
     <task id="LOCAL-00001" summary="Install FireBase">
       <created>1601436783378</created>
@@ -136,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601595697288</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement test polygon">
+      <created>1601598296005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601598296005</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Style: Refactor variable names for clarity">
+      <created>1601600797218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601600797218</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +221,8 @@
     <MESSAGE value="Install FireBase" />
     <MESSAGE value="Create KML/KMZ coordinate parser (C#)" />
     <MESSAGE value="Implement test polygon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement test polygon" />
+    <MESSAGE value="Style: Refactor variable names for clarity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style: Refactor variable names for clarity" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="211" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601180760104">
@@ -185,10 +245,14 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="28" y="201" key="SettingsEditor/2560.350.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1601179724549" />
-    <state x="106" y="292" key="Vcs.Push.Dialog.v2" timestamp="1601595700453">
+    <state x="106" y="292" key="Vcs.Push.Dialog.v2" timestamp="1601600798818">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="106" y="292" key="Vcs.Push.Dialog.v2/2560.350.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1601595700453" />
+    <state x="106" y="292" key="Vcs.Push.Dialog.v2/2560.350.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1601600798818" />
+    <state x="562" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602031222091">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="562" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.350.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1602031222091" />
     <state x="169" y="262" key="run.anything.popup" timestamp="1601438100274">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
