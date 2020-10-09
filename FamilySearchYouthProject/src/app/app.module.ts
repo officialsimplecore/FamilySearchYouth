@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +11,6 @@ import { CardComponent } from './components/card/card.component';
 
 // Components
 import {GoogleMapsModule} from '@angular/google-maps';
-import {HttpClientModule} from '@angular/common/http';
 import { AdminComponent } from './views/admin/admin.component';
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -28,7 +28,8 @@ import { FooterComponent } from './components/footer/footer.component';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    GoogleMapsModule
+    GoogleMapsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

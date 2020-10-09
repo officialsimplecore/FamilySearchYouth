@@ -4,6 +4,7 @@
   width="100%"
   [options]="googleMapsOptions">
 
-  <!-- Make sure to make use a for-each loop for this -->
-  <map-kml-layer [url]="kmlUrl" (kmlClick)="$event"></map-kml-layer>
+  <div *ngFor="let region of regions">
+    <map-kml-layer [url]="region.kmlUrl" (kmlClick)="region.id"></map-kml-layer>
+  </div>
 </google-map>
