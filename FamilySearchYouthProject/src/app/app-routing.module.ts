@@ -7,16 +7,20 @@ import {AdminComponent} from './views/admin/admin.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'youth',
     component: EntranceMapComponent
   },
   {
-    path: 'youth',
+    path: 'youth/learn',
     component: RegionalComponent
   },
   {
     path: 'admin',
     component: AdminComponent
+  },
+  {
+    path: '**',
+    component: EntranceMapComponent
   }
 ];
 

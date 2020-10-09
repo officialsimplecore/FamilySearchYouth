@@ -20,7 +20,11 @@ export class EntranceMapComponent implements OnInit {
               private router: Router) {}
 
   public progressRoute(regionId: number): void {
-    this.router.navigate(["youth/learn/" + regionId]);
+    this.router.navigate(["youth/learn", {
+      queryParams: {
+        regionId: regionId
+      }
+    }]);
   }
     // Test data
   ngOnInit(): void {
