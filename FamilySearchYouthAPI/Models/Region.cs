@@ -1,5 +1,4 @@
-﻿using FamilySearchYouthAPI.Services;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -12,7 +11,7 @@ namespace FamilySearchYouthAPI.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<Coordinate> Coordinates { get; set; }
+        public string KmlUrl { get; set; }
         public RegionalInformation RegionalInformation{ get; set; }
     }
 }

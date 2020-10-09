@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using FamilySearchYouthAPI.Data;
 using FamilySearchYouthAPI.Models;
-using FamilySearchYouthAPI.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +14,7 @@ namespace FamilySearchYouthAPI.Controllers
     public class RegionInputDto
     {
         public string Name { get; set; }
-        public string RawCoordinates { get; set; }
+        public string KmlUrl { get; set; }
     }
 
     [Route("api/[controller]")]
@@ -32,7 +31,6 @@ namespace FamilySearchYouthAPI.Controllers
         public async Task<IActionResult> GetAllRegions()
         {
             var regions = await _context.Regions
-                .Include(c => c.Coordinates)
                 .ToListAsync();
             return Ok(regions);
         }
@@ -40,16 +38,14 @@ namespace FamilySearchYouthAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> AddRegion(RegionInputDto regionInput)
         {
-            CoordinateParser coordinateParser = new CoordinateParser();
-            Coordinate[] parsedCoordinates = coordinateParser.Parse(regionInput.RawCoordinates);
             Region region = new Region
             {
                 Name = regionInput.Name,
-                Coordinates = parsedCoordinates
+                KmlUrl = regionInput.KmlUrl
             };
             _context.Add(region);
             await _context.SaveChangesAsync();
-            return Ok(parsedCoordinates);
+            return Ok();
         }
     }
 }

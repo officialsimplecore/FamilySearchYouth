@@ -12,7 +12,7 @@ export class EntranceMapComponent implements OnInit {
     zoom: 2
   };
 
-  vertices: google.maps.LatLngLiteral[];
+  public kmlLayer;
     // Test data
   ngOnInit(): void {
   }

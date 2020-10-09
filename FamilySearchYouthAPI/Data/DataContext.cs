@@ -1,5 +1,4 @@
 ﻿using FamilySearchYouthAPI.Models;
-using FamilySearchYouthAPI.Services;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -19,9 +18,6 @@ namespace FamilySearchYouthAPI.Data
         {
             modelBuilder.Entity<Region>()
                 .HasOne(c => c.RegionalInformation);
-
-            modelBuilder.Entity<Region>()
-                .HasMany(c => c.Coordinates);
         }
 
         public DbSet<Region> Regions { get; set; }

@@ -3,6 +3,7 @@
   height="90vh"
   width="100%"
   [options]="googleMapsOptions">
-  <map-polygon [paths]="vertices" (polygonClick)="$event"></map-polygon>
 
+  <!-- Make sure to make use a for-each loop for this -->
+  <map-kml-layer [url]="kmlUrl" (kmlClick)="$event"></map-kml-layer>
 </google-map>
