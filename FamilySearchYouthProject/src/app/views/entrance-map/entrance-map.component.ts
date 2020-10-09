@@ -12,7 +12,7 @@ export class EntranceMapComponent implements OnInit {
     zoom: 2
   };
 
-  public kmlLayer;
+  public kmlUrl;
     // Test data
   ngOnInit(): void {
   }
