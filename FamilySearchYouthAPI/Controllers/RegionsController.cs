@@ -35,6 +35,14 @@ namespace FamilySearchYouthAPI.Controllers
             return Ok(regions);
         }
 
+        [HttpGet("{regionId}")]
+        public async Task<IActionResult> GetRegion(int regionId)
+        {
+            var region = await _context.RegionalInformation
+                .FirstOrDefaultAsync(c => c.RegionId == regionId);
+            return Ok(region);
+        }
+
         [HttpPost]
         public async Task<IActionResult> AddRegion(RegionInputDto regionInput)
         {

@@ -18,6 +18,7 @@ namespace FamilySearchYouthAPI.Data
         {
             modelBuilder.Entity<Region>()
                 .HasOne(c => c.RegionalInformation);
+            // To-do: Make sure to register a foreign key with RegionalInformation when you use an IDE
         }
 
         public DbSet<Region> Regions { get; set; }
