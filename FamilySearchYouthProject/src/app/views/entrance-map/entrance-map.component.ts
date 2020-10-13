@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class EntranceMapComponent implements OnInit {
 
-  public regions; // To-do: Add strong typing
+  public regions: any[]; // To-do: Add strong typing
 
   public googleMapsOptions = {
     center: {lat: 0, lng: -0},
@@ -29,7 +29,9 @@ export class EntranceMapComponent implements OnInit {
     // Test data
   ngOnInit(): void {
     console.log(this.regionsData.getAllRegions());
-    this.regions = this.regionsData.getAllRegions().subscribe();
+    this.regionsData.getAllRegions().subscribe(data => {
+      this.regions = data;
+    });
   }
 
 }
