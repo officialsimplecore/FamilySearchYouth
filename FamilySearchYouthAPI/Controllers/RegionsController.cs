@@ -26,7 +26,8 @@ namespace FamilySearchYouthAPI.Controllers
         {
             _context = context;
         }
-
+        
+        // Returns all regions without regional information
         [HttpGet]
         public async Task<IActionResult> GetAllRegions()
         {
@@ -34,9 +35,11 @@ namespace FamilySearchYouthAPI.Controllers
                 .ToListAsync();
             return Ok(regions);
         }
-
-        [HttpGet("{regionId}")]
-        public async Task<IActionResult> GetRegion(int regionId)
+        
+        // Return regional information from a regionId and timePeriod argument
+            // Time period is an input as a date range and must be parsed into an ID
+        [HttpGet("{regionId}/{timePeriod}")]
+        public async Task<IActionResult> GetRegion(int regionId, int timePeriod)
         {
             var region = await _context.RegionalInformation
                 .FirstOrDefaultAsync(c => c.RegionId == regionId);
