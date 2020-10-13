@@ -11,7 +11,7 @@ export class RegionsDataService {
   constructor(private http: HttpClient) { }
 
   public getAllRegions(): Observable<any> {
-    return this.http.get(`${environment.apiUrl}regions`);
+    return this.http.get(`${environment.apiUrl}/regions`);
   }
 
 }
