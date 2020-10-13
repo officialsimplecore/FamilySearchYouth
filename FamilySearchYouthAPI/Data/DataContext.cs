@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace FamilySearchYouthAPI.Data
 {
@@ -17,7 +18,8 @@ namespace FamilySearchYouthAPI.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Region>()
-                .HasOne(c => c.RegionalInformation);
+                .HasMany(c => c.RegionalInformation);
+            // To-do: Make sure to register a foreign key with RegionalInformation when you use an IDE
         }
 
         public DbSet<Region> Regions { get; set; }

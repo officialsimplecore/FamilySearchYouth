@@ -46,6 +46,7 @@ export class RegionalComponent implements OnInit {
         this.router.navigate(["youth"]);
       } else {
         this.regionId = params['regionId']; // To-do: Check if parse needed
+        
       }
     });
 
