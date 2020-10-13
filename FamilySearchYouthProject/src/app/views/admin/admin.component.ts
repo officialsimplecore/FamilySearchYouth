@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {RegionsDataService} from "../../services/regions-data.service";
 
 @Component({
   selector: 'fsp-admin',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminComponent implements OnInit {
 
-  constructor() { }
+  public regions: any;
 
-  ngOnInit(): void {
+  constructor(private regionsData: RegionsDataService) { }
+
+  addRegion(region): void {
+    console.log(region);
+    this.regionsData.addRegion(region);
   }
 
+  ngOnInit(): void {
+    this.regionsData.listAllRegions().subscribe(data => {
+      this.regions = data;
+    })
+  }
 }

@@ -1,10 +1,10 @@
-<div>test</div>
+<div *ngFor="let region of regions">test</div>
 <google-map
   height="90vh"
   width="100%"
   [options]="googleMapsOptions">
 
   <div *ngFor="let region of regions">
-    <map-kml-layer [url]="region.kmlUrl" (kmlClick)="region.id"></map-kml-layer>
+    <map-polygon [paths]="region.coordinates" (polygonClick)="progressRoute(region.id)"></map-polygon>
   </div>
 </google-map>

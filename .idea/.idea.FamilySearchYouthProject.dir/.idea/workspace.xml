@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83cc5c14-8bfc-40c7-a071-db75b6aa1512" name="Default Changelist" comment="Convert to Polygon from KML">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthProject.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthProject.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/services/regions-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/services/regions-data.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FamilySearchYouthAPI/Models/RegionalInformation.cs" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/index.html" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthAPI/Controllers/RegionsController.cs" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/package.json" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/regional/regional.component.ts" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.html" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.ts" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.scss" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/services/regions-data.service.ts" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.ts" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iiZ7i1cXNa1h4DtDF8mmGXqXUM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="E:\Software Development Projects\FamilySearchYouthProject\FamilySearchYouthProject\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83cc5c14-8bfc-40c7-a071-db75b6aa1512" name="Default Changelist" comment="" />
+      <created>1602392209344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602392209344</updated>
+      <workItem from="1602392211523" duration="2248000" />
+      <workItem from="1602511142619" duration="859000" />
+      <workItem from="1602512025637" duration="3335000" />
+      <workItem from="1602529311132" duration="250000" />
+      <workItem from="1602608423262" duration="9543000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add period to RegionalInformation.cs model">
+      <created>1602512355387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602512355387</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Move API project to separate repo">
+      <created>1602608462372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602608462372</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Entrance map: Get regions from service observable">
+      <created>1602608900874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602608900874</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Convert to Polygon from KML">
+      <created>1602611988970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602611988970</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add period to RegionalInformation.cs model" />
+    <MESSAGE value="Move API project to separate repo" />
+    <MESSAGE value="Entrance map: Get regions from service observable" />
+    <MESSAGE value="Convert to Polygon from KML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Convert to Polygon from KML" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1065" y="520" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1602529337842">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1065" y="520" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602529337842" />
+    <state width="982" height="302" key="GridCell.Tab.0.bottom" timestamp="1602608631880">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="982" height="302" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602608631880" />
+    <state width="982" height="302" key="GridCell.Tab.0.center" timestamp="1602608631880">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="982" height="302" key="GridCell.Tab.0.center/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602608631880" />
+    <state width="982" height="302" key="GridCell.Tab.0.left" timestamp="1602608631880">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="982" height="302" key="GridCell.Tab.0.left/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602608631880" />
+    <state width="982" height="302" key="GridCell.Tab.0.right" timestamp="1602608631880">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="982" height="302" key="GridCell.Tab.0.right/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602608631880" />
+    <state x="290" y="396" width="981" height="707" key="SettingsEditor" timestamp="1602529525771">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="290" y="396" width="981" height="707" key="SettingsEditor/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602529525771" />
+    <state x="112" y="285" key="Vcs.Push.Dialog.v2" timestamp="1602611990273">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="112" y="285" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602611990273" />
+    <state x="338" y="111" width="840" height="908" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602608600012">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="338" y="111" width="840" height="908" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602608600012" />
+    <state x="1354" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602628873164">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1354" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602628873164" />
+    <state x="443" y="433" width="672" height="678" key="search.everywhere.popup" timestamp="1602608552242">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="443" y="433" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602608552242" />
+  </component>
+</project>

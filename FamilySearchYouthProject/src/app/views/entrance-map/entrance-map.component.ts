@@ -9,27 +9,27 @@ import { Router } from '@angular/router';
 })
 export class EntranceMapComponent implements OnInit {
 
-  public regions; // To-do: Add strong typing
+  public regions: any; // To-do: Add strong typing
 
   public googleMapsOptions = {
     center: {lat: 0, lng: -0},
     zoom: 2
   };
 
+  public vertices: google.maps.LatLngLiteral[];
+
   constructor(private regionsData: RegionsDataService,
               private router: Router) {}
 
   public progressRoute(regionId: number): void {
-    this.router.navigate(["youth/learn", {
-      queryParams: {
-        regionId: regionId
-      }
-    }]);
+    this.router.navigate(['youth/learn'], { queryParams:  { regionId: regionId }});
   }
     // Test data
   ngOnInit(): void {
-    console.log(this.regionsData.getAllRegions());
-    this.regions = this.regionsData.getAllRegions().subscribe();
+    this.regionsData.getAllRegions().subscribe(data => {
+      console.log(data);
+      this.regions = data;
+    });
   }
 
 }
