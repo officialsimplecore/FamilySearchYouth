@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Update_at_10_12_2020_8_09_PM_[Default_Changelist]" date="1602558582760" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthAPI.dir/.idea/shelf/Uncommitted_changes_before_Update_at_10_12_2020_8_09_PM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 10/12/2020 8:09 PM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.pdb" />
+    <option name="AFTER_PATH" value="obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthAPI.dir/.idea/shelf/Uncommitted_changes_before_Update_at_10_12_2020_8_09_PM_[Default_Changelist]/FamilySearchYouthAPI.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/Debug/netcoreapp3.1/FamilySearchYouthAPI.dll" />
+    <option name="AFTER_PATH" value="bin/Debug/netcoreapp3.1/FamilySearchYouthAPI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthAPI.dir/.idea/shelf/Uncommitted_changes_before_Update_at_10_12_2020_8_09_PM_[Default_Changelist]/FamilySearchYouthAPI.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthAPI.dir/.idea/shelf/Uncommitted_changes_before_Update_at_10_12_2020_8_09_PM_[Default_Changelist]/FamilySearchYouthAPI.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.dll" />
+    <option name="AFTER_PATH" value="obj/Debug/netcoreapp3.1/FamilySearchYouthAPI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthAPI.dir/.idea/shelf/Uncommitted_changes_before_Update_at_10_12_2020_8_09_PM_[Default_Changelist]/FamilySearchYouthAPI1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/Debug/netcoreapp3.1/FamilySearchYouthAPI.pdb" />
+    <option name="AFTER_PATH" value="bin/Debug/netcoreapp3.1/FamilySearchYouthAPI.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthAPI.dir/.idea/shelf/Uncommitted_changes_before_Update_at_10_12_2020_8_09_PM_[Default_Changelist]/FamilySearchYouthAPI1.pdb" />
+  </binary>
+</changelist>
