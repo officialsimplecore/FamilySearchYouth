@@ -22,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d556f71-68d5-42c6-9118-d8b4e3526fea" name="Default Changelist" comment="" />
+    <list default="true" id="4d556f71-68d5-42c6-9118-d8b4e3526fea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthAPI.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthAPI.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Region.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Region.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +37,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://E:/Software Development Projects/FamilySearchYouthProject/FamilySearchYouthAPI/Controllers/RegionsController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Controllers/RegionsController.cs" />
+        <option value="$PROJECT_DIR$/Models/Region.cs" />
+        <option value="$PROJECT_DIR$/Data/DataContext.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1inKeQWZLaQkqnC3DeIkWp3F7VB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -86,8 +102,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602538010785</updated>
-      <workItem from="1602538012752" duration="2885000" />
+      <workItem from="1602538012752" duration="3373000" />
     </task>
+    <task id="LOCAL-00001" summary="Git repairs">
+      <created>1602558956819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602558956819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Git repairs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git repairs" />
   </component>
   <component name="WindowStateProjectService">
     <state width="982" height="302" key="GridCell.Tab.0.bottom" timestamp="1602558612173">
@@ -126,10 +152,18 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="982" height="302" key="GridCell.Tab.0.right/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602558612173" />
+    <state x="1176" y="320" key="MultipleFileMergeDialog" timestamp="1602558965621">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1176" y="320" key="MultipleFileMergeDialog/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602558965621" />
     <state x="459" y="286" key="Rider.ProjectTemplateDialog.Size" timestamp="1602538014413">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="459" y="286" key="Rider.ProjectTemplateDialog.Size/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602538014413" />
+    <state x="1129" y="292" key="Vcs.Push.Dialog.v2" timestamp="1602558957253">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1129" y="292" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602558957253" />
     <state x="401" y="478" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602558566144">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
