@@ -41,12 +41,12 @@ export class RegionalComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.queryParams.subscribe(params => {
-      console.log(params['regionId'])
       if (params['regionId'] == null) {
+        console.log(params)
         this.router.navigate(["youth"]);
       } else {
         this.regionId = params['regionId']; // To-do: Check if parse needed
-        
+
       }
     });
 

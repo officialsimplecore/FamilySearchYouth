@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RegionsDataService } from 'src/app/services/regions-data.service';
 import { Router } from '@angular/router';
+import {REGION} from "@angular/fire/functions";
 
 @Component({
   selector: 'fsp-entrance-map',
@@ -16,15 +17,13 @@ export class EntranceMapComponent implements OnInit {
     zoom: 2
   };
 
+  public vertices: google.maps.LatLngLiteral[];
+
   constructor(private regionsData: RegionsDataService,
               private router: Router) {}
 
   public progressRoute(regionId: number): void {
-    this.router.navigate(["youth/learn", {
-      queryParams: {
-        regionId: regionId
-      }
-    }]);
+    this.router.navigate(['youth/learn'], { queryParams:  { regionId: regionId }});
   }
     // Test data
   ngOnInit(): void {
