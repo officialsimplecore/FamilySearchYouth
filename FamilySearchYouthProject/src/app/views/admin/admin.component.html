@@ -1,1 +1,18 @@
-<h1>Add Region</h1>
+<h1>FSYP Console</h1>
+
+<h2>Add Regions</h2>
+<form #regionInputForm="ngForm" (ngSubmit)="addRegion(regionInputForm.value)">
+  <label for="name">Region Name</label> <br>
+  <input id="name" class="form-control" type="text"><br>
+
+  <label for="kmlUrl">Kml Url</label> <br>
+  <input id="kmlUrl" class="form-control" type="text"> <br>
+
+  <button type="submit">Submit</button>
+</form>
+
+<h2>Regions</h2>
+<div
+  *ngFor="let region of regions">
+  <p class="list-item">{{region.Name}}</p>
+</div>

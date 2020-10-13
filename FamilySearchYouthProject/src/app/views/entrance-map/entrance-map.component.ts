@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RegionsDataService } from 'src/app/services/regions-data.service';
 import { Router } from '@angular/router';
-import {REGION} from "@angular/fire/functions";
 
 @Component({
   selector: 'fsp-entrance-map',
@@ -10,7 +9,7 @@ import {REGION} from "@angular/fire/functions";
 })
 export class EntranceMapComponent implements OnInit {
 
-  public regions: any[]; // To-do: Add strong typing
+  public regions: any; // To-do: Add strong typing
 
   public googleMapsOptions = {
     center: {lat: 0, lng: -0},
@@ -27,8 +26,8 @@ export class EntranceMapComponent implements OnInit {
   }
     // Test data
   ngOnInit(): void {
-    console.log(this.regionsData.getAllRegions());
     this.regionsData.getAllRegions().subscribe(data => {
+      console.log(data);
       this.regions = data;
     });
   }

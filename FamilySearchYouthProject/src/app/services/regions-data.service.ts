@@ -14,4 +14,12 @@ export class RegionsDataService {
     return this.http.get(`${environment.apiUrl}/regions`);
   }
 
+  public listAllRegions(): Observable<any> {
+    return this.http.get(`${environment.apiUrl}/regions/list`);
+  }
+
+  public addRegion(region): void {
+    this.http.post(`${environment.apiUrl}/regions`, region).subscribe();
+  }
+
 }

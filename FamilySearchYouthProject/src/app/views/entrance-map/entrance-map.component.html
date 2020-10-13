@@ -1,10 +1,10 @@
-<div>test</div>
+<div *ngFor="let region of regions">test</div>
 <google-map
   height="90vh"
   width="100%"
   [options]="googleMapsOptions">
 
   <div *ngFor="let region of regions">
-    <map-polygon [paths]="vertices" (polygonClick)="progressRoute(region.id)"></map-polygon>
+    <map-polygon [paths]="region.coordinates" (polygonClick)="progressRoute(region.id)"></map-polygon>
   </div>
 </google-map>
