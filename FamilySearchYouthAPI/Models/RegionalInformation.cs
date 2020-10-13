@@ -10,6 +10,7 @@ namespace FamilySearchYouthAPI.Models
         public int Id { get; set; }
         public int RegionId { get; set; }
         public string RegionName { get; set; }
+        public int PeriodId { get; set; }
         public string Food { get; set; }
         public string Clothing { get; set; }
         public string Religion { get; set; }
