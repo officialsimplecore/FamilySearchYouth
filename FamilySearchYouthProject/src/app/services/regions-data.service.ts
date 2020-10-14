@@ -14,6 +14,10 @@ export class RegionsDataService {
     return this.http.get(`${environment.apiUrl}/regions`);
   }
 
+  public getRegionalInformation(regionId, year): Observable<any> {
+    return this.http.get(`${environment.apiUrl}/regions/${regionId}/${year}`)
+  }
+
   public listAllRegions(): Observable<any> {
     return this.http.get(`${environment.apiUrl}/regions/list`);
   }

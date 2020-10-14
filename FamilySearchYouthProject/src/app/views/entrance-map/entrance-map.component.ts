@@ -11,6 +11,8 @@ export class EntranceMapComponent implements OnInit {
 
   public regions: any; // To-do: Add strong typing
 
+  public activeRegion: number;
+
   public googleMapsOptions = {
     center: {lat: 0, lng: -0},
     zoom: 2
@@ -24,6 +26,23 @@ export class EntranceMapComponent implements OnInit {
   public progressRoute(regionId: number): void {
     this.router.navigate(['youth/learn'], { queryParams:  { regionId: regionId }});
   }
+
+  public getStrokeColor(regionId): string {
+    if (regionId == this.activeRegion) {
+      return '#FFF';
+    } else {
+      return '#000';
+    }
+  }
+
+  public hoverEffect(condition: boolean, regionId): void {
+    if (condition) {
+      this.activeRegion = regionId;
+    } else {
+      this.activeRegion = -1;
+    }
+  }
+
     // Test data
   ngOnInit(): void {
     this.regionsData.getAllRegions().subscribe(data => {

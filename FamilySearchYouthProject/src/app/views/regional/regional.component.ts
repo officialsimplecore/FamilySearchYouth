@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import {RegionsDataService} from "../../services/regions-data.service";
 
 @Component({
   selector: 'fsp-regional',
@@ -10,7 +11,11 @@ export class RegionalComponent implements OnInit {
 
   public regionId: number;
 
-  constructor(private route: ActivatedRoute, private router: Router) { }
+  public regionInformation: any;
+
+  public year: number = 1900;
+
+  constructor(private route: ActivatedRoute, private router: Router, private regionData: RegionsDataService) { }
 
   cardsData = [
     {
@@ -42,16 +47,23 @@ export class RegionalComponent implements OnInit {
   ngOnInit(): void {
     this.route.queryParams.subscribe(params => {
       if (params['regionId'] == null) {
-        console.log(params)
         this.router.navigate(["youth"]);
       } else {
         this.regionId = params['regionId']; // To-do: Check if parse needed
-
       }
     });
 
+    this.setRegionalInformation();
+
     // Shuffle cards data on page load
     this.cardsData = this.shuffleArray(this.cardsData);
+  }
+  // To-do: Change placeholder year
+  private setRegionalInformation(): void {
+    this.regionData.getRegionalInformation(this.regionId, this.year).subscribe(data => {
+      this.regionInformation = data;
+      console.log(data);
+    });
   }
 
   private shuffleArray(array): any[] {
