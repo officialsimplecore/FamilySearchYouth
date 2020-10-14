@@ -13,7 +13,11 @@ export class RegionalComponent implements OnInit {
 
   public regionInformation: any;
 
-  public year: number = 1900;
+  public year: number = 1600; // To-do: This is a placeholder for user input
+
+  public modalOpen: boolean;
+
+  public activeCardTitle: string;
 
   constructor(private route: ActivatedRoute, private router: Router, private regionData: RegionsDataService) { }
 
@@ -42,6 +46,91 @@ export class RegionalComponent implements OnInit {
       title: 'Weather',
       icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
     },
+    {
+      category: 'Culture',
+      title: 'Sports',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Social',
+      title: 'Family Structure',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Government',
+      title: 'Money',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Government',
+      title: 'Economy',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Technology',
+      title: 'Innovations',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Social',
+      title: 'Occupations',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Government',
+      title: 'Military',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Culture',
+      title: 'Historical Events',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Physical',
+      title: 'Geography',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Physical',
+      title: 'Wildlife',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Government',
+      title: 'Wars',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Social',
+      title: 'Migrations',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Culture',
+      title: 'Holidays and Folklore',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'Social',
+      title: 'Famous People',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'The Church',
+      title: 'The Church Story',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'The Church',
+      title: 'Temples',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
+    {
+      category: 'The Church',
+      title: 'Pioneers',
+      icon: 'https://edge.fscdn.org/assets/img/about/tileicons/icon_population-growth-2000f23395c3090b243d0c728a70a218.svg'
+    },
   ];
 
   ngOnInit(): void {
@@ -64,6 +153,15 @@ export class RegionalComponent implements OnInit {
       this.regionInformation = data;
       console.log(data);
     });
+  }
+
+  public changeModal(option, title) {
+    if (option)
+      this.modalOpen = true;
+    else
+      this.modalOpen = false;
+    console.log(title)
+    this.activeCardTitle = title.toLowerCase();
   }
 
   private shuffleArray(array): any[] {
@@ -93,12 +191,14 @@ export class RegionalComponent implements OnInit {
         return '#FFB81D';
       case 'Physical':
         return '#BED21F';
-      case 'Religion':
+      case 'Social':
         return '#FC4F6E';
       case 'Technology':
         return '#3cb2c3';
       case 'Government':
-        return '#ba84cf';
+        return '#b7865e';
+      case 'The Church':
+        return '#ba84cf'
       default:
         return '#BED21F';
     }

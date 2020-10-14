@@ -8,13 +8,16 @@
   <div class="right"></div>
 </div>
 <div class="year-container">
-  <div class="left">{{year}} AD</div>
+  <div class="left">{{year}} CE</div>
   <div class="right">
     <button>View a different year</button>
   </div>
 </div>
 
-
+<fsp-static-modal [title]="activeCardTitle | titlecase"
+                  [body]="regionInformation[activeCardTitle]"
+                  (close)="changeModal(false, null)"
+                  [open]="modalOpen"></fsp-static-modal>
 <!--Time/Data Layer-->
 <!--  Date-->
 <!--  Button-->
@@ -28,5 +31,7 @@
             [title]="card.title"
             [iconUrl]="card.icon"
             [backgroundColor]="getColor(card.category)"
+            (click)="changeModal(true, card.title)"
+            class="clickable"
   ></fsp-card>
 </div>

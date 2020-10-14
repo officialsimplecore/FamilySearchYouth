@@ -14,6 +14,7 @@ import { CardComponent } from './components/card/card.component';
 import {GoogleMapsModule} from '@angular/google-maps';
 import { AdminComponent } from './views/admin/admin.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { StaticModalComponent } from './components/static-modal/static-modal.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FooterComponent } from './components/footer/footer.component';
     EntranceMapComponent,
     CardComponent,
     AdminComponent,
-    FooterComponent
+    FooterComponent,
+    StaticModalComponent
   ],
   imports: [
     BrowserModule,
