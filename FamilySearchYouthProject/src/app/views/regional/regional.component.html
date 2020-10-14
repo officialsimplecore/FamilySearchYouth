@@ -13,15 +13,13 @@
     <button>View a different year</button>
   </div>
 </div>
-
 <fsp-static-modal [title]="activeCardTitle | titlecase"
-                  [body]="regionInformation[activeCardTitle]"
+                  [body]="regionInformation[activeCardTitle].textBody"
                   (close)="changeModal(false, null)"
                   [open]="modalOpen"></fsp-static-modal>
 <!--Time/Data Layer-->
 <!--  Date-->
 <!--  Button-->
-
 
 <!--Card List Layer-->
 <!--  Cards-->

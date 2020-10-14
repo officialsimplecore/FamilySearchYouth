@@ -17,7 +17,7 @@ export class RegionalComponent implements OnInit {
 
   public modalOpen: boolean;
 
-  public activeCardTitle: string;
+  public activeCardTitle: string = 'food';
 
   constructor(private route: ActivatedRoute, private router: Router, private regionData: RegionsDataService) { }
 
