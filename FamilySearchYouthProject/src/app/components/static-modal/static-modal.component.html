@@ -1,0 +1,12 @@
+<div class="full-bg" *ngIf="open">
+  <div class="cover-card">
+    <div class="heading">
+      <div class="left"></div>
+      <div class="center">{{title}}</div>
+      <div class="right clickable" (click)="closeModal()"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 13 13" preserveAspectRatio="xMidYMin"><g transform="translate(-1.000000, -1.000000)"><path d="M13 2L2 13M2 2L13 13" stroke="currentColor" stroke-width="2.5"></path></g></svg></div>
+    </div>
+    <div class="body">
+      <p>{{body}}</p>
+    </div>
+  </div>
+</div>
