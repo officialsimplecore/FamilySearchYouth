@@ -19,20 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83cc5c14-8bfc-40c7-a071-db75b6aa1512" name="Default Changelist" comment="Convert to Polygon from KML">
+    <list default="true" id="83cc5c14-8bfc-40c7-a071-db75b6aa1512" name="Default Changelist" comment="Create admin form (not working)">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthProject.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FamilySearchYouthProject.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/services/regions-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/services/regions-data.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/entrance-map/entrance-map.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySearchYouthProject/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySearchYouthProject/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +50,8 @@
         <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/services/regions-data.service.ts" />
         <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.ts" />
         <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/app/views/admin/admin.component.html" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/environments/environment.prod.ts" />
+        <option value="$PROJECT_DIR$/FamilySearchYouthProject/src/environments/environment.ts" />
       </list>
     </option>
   </component>
@@ -81,7 +81,8 @@
       <workItem from="1602511142619" duration="859000" />
       <workItem from="1602512025637" duration="3335000" />
       <workItem from="1602529311132" duration="250000" />
-      <workItem from="1602608423262" duration="9543000" />
+      <workItem from="1602608423262" duration="9636000" />
+      <workItem from="1602687343023" duration="3093000" />
     </task>
     <task id="LOCAL-00001" summary="Add period to RegionalInformation.cs model">
       <created>1602512355387</created>
@@ -111,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602611988970</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create admin form (not working)">
+      <created>1602629716609</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602629716609</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,37 +145,38 @@
     <MESSAGE value="Move API project to separate repo" />
     <MESSAGE value="Entrance map: Get regions from service observable" />
     <MESSAGE value="Convert to Polygon from KML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convert to Polygon from KML" />
+    <MESSAGE value="Create admin form (not working)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create admin form (not working)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1065" y="520" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1602529337842">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1065" y="520" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602529337842" />
-    <state width="982" height="302" key="GridCell.Tab.0.bottom" timestamp="1602608631880">
+    <state width="982" height="302" key="GridCell.Tab.0.bottom" timestamp="1602629732411">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="982" height="302" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602608631880" />
-    <state width="982" height="302" key="GridCell.Tab.0.center" timestamp="1602608631880">
+    <state width="982" height="302" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602629732411" />
+    <state width="982" height="302" key="GridCell.Tab.0.center" timestamp="1602629732411">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="982" height="302" key="GridCell.Tab.0.center/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602608631880" />
-    <state width="982" height="302" key="GridCell.Tab.0.left" timestamp="1602608631880">
+    <state width="982" height="302" key="GridCell.Tab.0.center/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602629732411" />
+    <state width="982" height="302" key="GridCell.Tab.0.left" timestamp="1602629732411">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="982" height="302" key="GridCell.Tab.0.left/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602608631880" />
-    <state width="982" height="302" key="GridCell.Tab.0.right" timestamp="1602608631880">
+    <state width="982" height="302" key="GridCell.Tab.0.left/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602629732411" />
+    <state width="982" height="302" key="GridCell.Tab.0.right" timestamp="1602629732411">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="982" height="302" key="GridCell.Tab.0.right/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602608631880" />
+    <state width="982" height="302" key="GridCell.Tab.0.right/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602629732411" />
     <state x="290" y="396" width="981" height="707" key="SettingsEditor" timestamp="1602529525771">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="290" y="396" width="981" height="707" key="SettingsEditor/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602529525771" />
-    <state x="112" y="285" key="Vcs.Push.Dialog.v2" timestamp="1602611990273">
+    <state x="112" y="285" key="Vcs.Push.Dialog.v2" timestamp="1602629717781">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="112" y="285" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602611990273" />
+    <state x="112" y="285" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.595.1920.1040@0.0.2048.1112" timestamp="1602629717781" />
     <state x="338" y="111" width="840" height="908" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602608600012">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
