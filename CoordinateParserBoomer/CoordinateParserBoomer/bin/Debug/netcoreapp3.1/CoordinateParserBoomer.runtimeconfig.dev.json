@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/Users/simplecore/.dotnet/store/|arch|/|tfm|",
-      "/Users/simplecore/.nuget/packages"
-    ]
-  }
-}
