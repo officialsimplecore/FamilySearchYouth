@@ -14,8 +14,8 @@ export class EntranceMapComponent implements OnInit {
   public activeRegion: number;
 
   public googleMapsOptions = {
-    center: {lat: 0, lng: -0},
-    zoom: 2
+    center: {lat: -34.44515, lng: 172.60283},
+    zoom: 4
   };
 
   public vertices: google.maps.LatLngLiteral[];

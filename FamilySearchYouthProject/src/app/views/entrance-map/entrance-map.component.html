@@ -5,6 +5,11 @@
   [options]="googleMapsOptions">
 
   <div *ngFor="let region of regions">
-    <map-polygon [options]="{strokeColor: getStrokeColor(region.id)}" (polygonMouseover)="hoverEffect(true, region.id)" (polygonMouseout)="hoverEffect(false, region.id)" [paths]="region.coordinates" (polygonClick)="progressRoute(region.id)"></map-polygon>
+    <map-polygon
+      [options]="{strokeColor: getStrokeColor(region.id)}"
+      (polygonMouseover)="hoverEffect(true, region.id)"
+      (polygonMouseout)="hoverEffect(false, region.id)"
+      [paths]="region.coordinates"
+      (polygonClick)="progressRoute(region.id)"></map-polygon>
   </div>
 </google-map>

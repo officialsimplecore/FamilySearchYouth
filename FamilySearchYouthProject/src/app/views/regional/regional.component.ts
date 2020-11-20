@@ -15,12 +15,13 @@ export class RegionalComponent implements OnInit {
 
   public year: number = 1600; // To-do: This is a placeholder for user input
 
-  public modalOpen: boolean;
+  public modalOpen: boolean = false
 
   public activeCardTitle: string = 'food';
 
   constructor(private route: ActivatedRoute, private router: Router, private regionData: RegionsDataService) { }
 
+  // Hard coded temporarily
   cardsData = [
     {
       category: 'Culture',
